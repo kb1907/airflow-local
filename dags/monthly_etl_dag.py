@@ -7,7 +7,6 @@ from airflow.operators.python import PythonOperator
 import pendulum
 
 
-
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 
 trip_db_user = os.getenv('TRIP_DB_USER')
